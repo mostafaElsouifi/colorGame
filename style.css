@@ -1,0 +1,100 @@
+
+*{
+    margin:0;
+    padding:0;
+    /*The box-sizing property allows us to include the padding and border in an element's total width and height.*/
+    box-sizing:border-box;
+    font-family: 'Grandstander', cursive;
+}
+
+body{
+    background-color:#232323;
+    color:white;
+
+}
+h1{
+    background-color:steelBlue;
+    text-align:center;
+    margin:0;
+    text-transform: uppercase;
+    padding:10px 0;
+ 
+   
+
+}
+.colorDisplay{
+    font-size:200%;
+    margin-top:0;   
+}
+.messageDispaly{
+    display:inline-block;
+    width:20%;
+}
+.stripe{
+    background-color:white;
+    text-align: center;
+    color:black;
+}
+
+.squares{
+    
+    padding-bottom:90%;
+    margin-top:15px;
+    border-radius: 15%;
+    transition: background 0.6s;
+    -webkit-transition:background 0.6s;
+    -moz-transition: background 0.6s;
+}
+.container-fluid{
+    margin-top:10px;
+    margin-bottom: 50px;
+}
+#player-0-panel, #player-1-panel{
+    background-color:#232323;
+    border-radius:4%;
+    padding-top:30px;
+    font-size:2rem;
+    line-height:3;
+    font-weight:100;
+}
+button{
+    color:steelblue;
+    font-weight:700px;
+    font-size:1.5rem;
+    border:none;
+    background: none;
+    text-transform:uppercase;
+    outline:none;
+    transition:all 0.4s;
+    -webkit-transition:all 0.4s;
+    -moz-transition: all 04s;
+    
+}
+button:hover{
+    background-color:steelblue;
+    color:white;
+    padding-left:10px;
+    padding-right:10px;   
+}
+.newGame-btn{
+   position: absolute;
+   top:212px;
+   left:5px;
+}
+.selected{
+    background-color:steelblue;
+    color:white;
+    padding-left:10px;
+    padding-right:10px;
+
+}
+
+.active .player-name{
+    color: 	#00FF00;
+}
+
+.winner .player-name{
+    color:rgb(184, 134, 11);
+    font-size:2.5rem;
+    font-weight:100;
+}
